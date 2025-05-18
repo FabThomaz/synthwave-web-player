@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             title: "80s Retro Synthwave",
             artist: "Unknown Artist",
-            src: "music/80s Retro Synthwave.mp3",
-            cover: "images/image_1.jpg"
+            src: "https://drive.google.com/file/d/11dlge5_FEqpsxRs4HMTYet_vip3GPOGG/view?usp=drive_link",
+            cover: "https://drive.google.com/file/d/1konAT1FVwlPZLmWN9TmgojUDK-ZoAGp2/view?usp=drive_link"
         },
         {
             title: "80s-Pulse Synthwave Dude",
