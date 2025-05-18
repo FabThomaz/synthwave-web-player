@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             title: "80s Retro Synthwave",
             artist: "Unknown Artist",
-            src: "https://audio.com/fabricio-mendes/audio/80s-retro-synthwave",
+            src: "80s Retro Synthwave.mp3",
             cover: "https://drive.google.com/file/d/1konAT1FVwlPZLmWN9TmgojUDK-ZoAGp2/view?usp=drive_link"
         },
         {
