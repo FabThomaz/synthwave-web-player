@@ -4,32 +4,32 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             title: "80s Retro Synthwave",
             artist: "Unknown Artist",
-            src: "music/80s Retro Synthwave.mp3",
-            cover: "images/image_1.jpg"
+            src: "80s Retro Synthwave.mp3",
+            cover: "image_1.jpg"
         },
         {
             title: "80s-Pulse Synthwave Dude",
             artist: "Unknown Artist",
-            src: "music/80s-Pulse Synthwave Dude.mp3",
-            cover: "images/image_2.jpg"
+            src: "80s-Pulse Synthwave Dude.mp3",
+            cover: "image_2.jpg"
         },
         {
             title: "Neon Mirage",
             artist: "Unknown Artist",
-            src: "music/Neon Mirage.mp3",
-            cover: "images/image_3.jpg"
+            src: "Neon Mirage.mp3",
+            cover: "image_3.jpg"
         },
         {
             title: "Shattered",
             artist: "Unknown Artist",
-            src: "music/Shattered.mp3",
-            cover: "images/image_4.jpg"
+            src: "Shattered.mp3",
+            cover: "image_4.jpg"
         },
         {
             title: "Synthwave Retro 80s",
             artist: "Unknown Artist",
-            src: "music/Synthwave Retro 80s.mp3",
-            cover: "images/image_5.jpg"
+            src: "Synthwave Retro 80s.mp3",
+            cover: "image_5.jpg"
         }
     ];
 
