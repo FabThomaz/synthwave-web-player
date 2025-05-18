@@ -6,3 +6,5 @@ Com uma interface intuitiva e minimalista, o SynthWave Player coloca suas músic
 A paleta de cores é um show à parte, dominada por tons de roxo profundo, azul elétrico e rosa choque, complementados por grades futurísticas e raios laser que reagem ao ritmo da música. A arte do álbum em destaque surge emoldurada por linhas de neon brilhantes, adicionando um toque de glamour retrô a cada faixa.
 
 O SynthWave Player é a trilha sonora perfeita para suas sessões de trabalho, momentos de relaxamento ou para simplesmente se perder nas ondas nostálgicas do synthwave. Prepare-se para uma viagem audiovisual inesquecível, onde o passado encontra o futuro em perfeita harmonia.
+
+![Image](https://github.com/user-attachments/assets/9fb55f51-ab2c-48f5-988c-3924fc589b4c)
