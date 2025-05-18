@@ -218,11 +218,12 @@ body {
 @media (max-width: 600px), (orientation: portrait) {
     .music-container,
     .playlist-container {
-        max-width: 98vw;
-        width: 98vw;
-        padding: 18px 6vw 16px 6vw;
+        width: auto;
+        max-width: 500px;
+        padding: 18px 7vw 16px 7vw;
         margin: 18px 0 12px 0;
         border-radius: 12px;
+        box-sizing: border-box;
     }
 
     .img-container {
@@ -233,30 +234,10 @@ body {
 
     .progress-container {
         display: block;
-        width: 90vw;
+        width: 86vw;
         min-width: 120px;
         max-width: 98vw;
         margin-left: auto;
         margin-right: auto;
-    }
-
-    .playlist-container {
-        padding: 10px 4vw;
-    }
-
-    .music-info h4,
-    .music-info p {
-        font-size: 1.1em;
-    }
-
-    .action-btn {
-        font-size: 1.2em;
-    }
-    .action-btn-big {
-        font-size: 1.7em;
-    }
-
-    #volume-slider {
-        width: 60px;
     }
 }
