@@ -202,7 +202,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
+    text-emphasis-color: transparent;
     text-shadow:
         0 2px 8px #0ff,
         0 0px 24px #f0f,
@@ -212,6 +212,40 @@ body {
     text-transform: uppercase;
     filter: brightness(1.2) contrast(1.2);
     user-select: none;
+}
+
+#loading-screen {
+    position: fixed;
+    z-index: 9999;
+    inset: 0;
+    background: #12002f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.5s;
+}
+
+.console-effect {
+    font-family: 'Orbitron', 'Audiowide', 'Consolas', 'Courier New', monospace;
+    font-size: 2em;
+    color: #0ff;
+    text-shadow: 0 0 8px #0ff, 0 0 24px #f0f;
+    letter-spacing: 0.08em;
+    background: none;
+    padding: 24px 32px;
+    border-radius: 12px;
+    box-shadow: 0 0 24px #0ff4, 0 0 48px #f0f2;
+}
+
+.console-cursor {
+    display: inline-block;
+    animation: blink-cursor 0.8s steps(1) infinite;
+    color: #f0f;
+}
+
+@keyframes blink-cursor {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
 }
 
 /* Adaptação para dispositivos móveis (modo retrato) */

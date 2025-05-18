@@ -4,32 +4,32 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             title: "80s Retro Synthwave",
             artist: "Unknown Artist",
-            src: "80s Retro Synthwave.mp3",
-            cover: "image_1.jpg"
+            src: "music/80s Retro Synthwave.mp3",
+            cover: "images/image_1.jpg"
         },
         {
             title: "80s-Pulse Synthwave Dude",
             artist: "Unknown Artist",
-            src: "80s-Pulse Synthwave Dude.mp3",
-            cover: "image_2.jpg"
+            src: "music/80s-Pulse Synthwave Dude.mp3",
+            cover: "images/image_2.jpg"
         },
         {
             title: "Neon Mirage",
             artist: "Unknown Artist",
-            src: "Neon Mirage.mp3",
-            cover: "image_3.jpg"
+            src: "music/Neon Mirage.mp3",
+            cover: "images/image_3.jpg"
         },
         {
             title: "Shattered",
             artist: "Unknown Artist",
-            src: "Shattered.mp3",
-            cover: "image_4.jpg"
+            src: "music/Shattered.mp3",
+            cover: "images/image_4.jpg"
         },
         {
             title: "Synthwave Retro 80s",
             artist: "Unknown Artist",
-            src: "Synthwave Retro 80s.mp3",
-            cover: "image_5.jpg"
+            src: "music/Synthwave Retro 80s.mp3",
+            cover: "images/image_5.jpg"
         }
     ];
 
@@ -164,4 +164,25 @@ document.addEventListener('DOMContentLoaded', function() {
     loadSong(songs[songIndex]);
     displayPlaylist();
     audio.volume = volumeSlider.value;
+
+    // Animação de loading estilo console anos 80
+    const loadingScreen = document.getElementById('loading-screen');
+    const consoleText = document.getElementById('console-text');
+    const appName = 'SynthWave Player';
+    let i = 0;
+
+    function typeWriter() {
+        if (i <= appName.length) {
+            consoleText.textContent = appName.substring(0, i);
+            i++;
+            setTimeout(typeWriter, 90);
+        } else {
+            setTimeout(() => {
+                loadingScreen.style.opacity = '0';
+                setTimeout(() => loadingScreen.style.display = 'none', 500);
+            }, 600);
+        }
+    }
+
+    typeWriter();
 });
