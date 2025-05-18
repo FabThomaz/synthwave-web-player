@@ -28,7 +28,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    padding-top: 24px;
 }
 
 .music-container {
@@ -191,6 +191,29 @@ body {
     text-shadow: 0 0 8px #0ff;
 }
 
+.player-title {
+    font-family: 'Orbitron', 'Audiowide', 'Arial Black', Arial, sans-serif;
+    font-size: 2.3em;
+    letter-spacing: 0.08em;
+    text-align: center;
+    margin-bottom: 18px;
+    margin-top: 10px;
+    background: linear-gradient(90deg, #fff 10%, #0ff 40%, #f0f 60%, #fff 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-shadow:
+        0 2px 8px #0ff,
+        0 0px 24px #f0f,
+        0 1px 0 #fff,
+        0 0 2px #222;
+    font-weight: 900;
+    text-transform: uppercase;
+    filter: brightness(1.2) contrast(1.2);
+    user-select: none;
+}
+
 /* Adaptação para dispositivos móveis (modo retrato) */
 @media (max-width: 600px), (orientation: portrait) {
     .music-container,
@@ -209,6 +232,7 @@ body {
     }
 
     .progress-container {
+        display: block;
         width: 90vw;
         min-width: 120px;
         max-width: 98vw;
