@@ -234,9 +234,9 @@ body {
 
     .progress-container {
         display: block;
-        width: 86vw;
-        min-width: 120px;
-        max-width: 98vw;
+        width: 90%;              /* Menor que o box */
+        min-width: 80px;
+        max-width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
