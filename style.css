@@ -218,8 +218,8 @@ body {
 @media (max-width: 600px), (orientation: portrait) {
     .music-container,
     .playlist-container {
-        width: auto;
-        max-width: 500px;
+        width: 86vw;
+        max-width: 98vw;
         padding: 18px 7vw 16px 7vw;
         margin: 18px 0 12px 0;
         border-radius: 12px;
