@@ -241,3 +241,12 @@ body {
         margin-right: auto;
     }
 }
+
+/* Cursors synthwave - fora do media query */
+body, html {
+    cursor: url('https://cdn.jsdelivr.net/gh/ixartz/NeonCursor@main/assets/cursor-neon-blue.png'), auto;
+}
+
+a, button, .action-btn, .playlist li, input[type="range"] {
+    cursor: url('https://cdn.jsdelivr.net/gh/ixartz/NeonCursor@main/assets/cursor-neon-pink.png'), pointer;
+}
