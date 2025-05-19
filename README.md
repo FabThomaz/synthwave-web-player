@@ -7,4 +7,6 @@ A paleta de cores é um show à parte, dominada por tons de roxo profundo, azul 
 
 O SynthWave Player é a trilha sonora perfeita para suas sessões de trabalho, momentos de relaxamento ou para simplesmente se perder nas ondas nostálgicas do synthwave. Prepare-se para uma viagem audiovisual inesquecível, onde o passado encontra o futuro em perfeita harmonia.
 
+https://synthwave-player.netlify.app/
+
 ![Image](https://github.com/user-attachments/assets/9fb55f51-ab2c-48f5-988c-3924fc589b4c)
